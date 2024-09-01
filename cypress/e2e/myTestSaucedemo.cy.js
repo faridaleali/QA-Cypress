@@ -27,12 +27,12 @@ describe('Pruebas en compra de usuarios', () => {
 		cy.dataTestClick("logout-sidebar-link");
 	}
 
-	it('Compra con user correctamente configurado', () => {
+	it('Compra con user standard_user', () => {
 		cy.login(users.standard_user.username, users.standard_user.password);
 		realizarCompra();
 	});
 
-	it('Compra con user configurado erronamente', () => {
+	it('Compra con user problem_user', () => {
 		cy.login(users.problem_user.username, users.problem_user.password);
 		realizarCompra();
 	});
