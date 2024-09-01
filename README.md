@@ -14,13 +14,13 @@ Este proyecto está enfocado en la automatización de pruebas de calidad para el
 
 ## Casos de Prueba
 
-### Caso 1: Compra con usuario correctamente configurado
+### Caso 1: Compra con usuario con standard_user
 - **JIRA ID**: SD-101
-- **Descripción**: Verificar que un usuario con configuración correcta puede realizar una compra con éxito.
+- **Descripción**: Verificar que el usuario standard_user puede realizar una compra con éxito, identificando posibles errores.
 
-### Caso 2: Compra con usuario configurado incorrectamente
+### Caso 2: Compra con usuario con problem_user
 - **JIRA ID**: SD-102
-- **Descripción**: Verificar que un usuario con configuración incorrecta puede realizar una compra, identificando posibles errores.
+- **Descripción**: Verificar que el usuario problem_user puede realizar una compra con éxito, identificando posibles errores.
 
 ## Instalación y Ejecución
 
