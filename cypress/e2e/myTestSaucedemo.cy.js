@@ -28,11 +28,13 @@ describe('Pruebas en compra de usuarios', () => {
 	}
 
 	it('Compra con user standard_user', () => {
+		cy.log('Se iniciaria sesion con standard_user');
 		cy.login(users.standard_user.username, users.standard_user.password);
 		realizarCompra();
 	});
 
 	it('Compra con user problem_user', () => {
+		cy.log('Se iniciaria sesion con problem_user');
 		cy.login(users.problem_user.username, users.problem_user.password);
 		realizarCompra();
 	});
